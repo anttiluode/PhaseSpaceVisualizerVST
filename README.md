@@ -1,5 +1,7 @@
 # Phase Space Visualizer VST3
 
+![VST Plugin](https://raw.githubusercontent.com/anttiluode/PhaseSpaceVisualizerVST/vst.png)
+
 A real-time audio visualizer that creates mesmerizing phase space patterns from your audio signal. Creates unique visual patterns based on the relationships between consecutive audio samples, resulting in distinctive shapes for different waveforms and sounds.
 
 A built vst3 version of the file is in 
