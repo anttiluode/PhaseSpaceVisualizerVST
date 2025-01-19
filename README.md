@@ -9,6 +9,8 @@ A built vst3 version of the file is in
 
 Phase Space Visualizer.vst3/Contents/x86_64-win
 
+You can drop that to program files/common files/vst3 in windows and it should show up in your daw after you rescan the vst plugins. 
+
 ## Features
 
 - Real-time phase space visualization of audio signals
@@ -104,4 +106,4 @@ Built with [JUCE](https://github.com/juce-framework/JUCE) - an open-source C++ a
 
 - Some DAWs may require rescanning plugins to detect the VST3
 - High CPU usage with very long trails enabled
-- [Add any other known issues]
+
