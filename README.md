@@ -42,30 +42,26 @@ Different audio inputs create different patterns:
 ### Build Steps
 
 1. Clone the repository with submodules:
-```bash
-git clone --recursive https://github.com/yourusername/phase-space-visualizer
-cd phase-space-visualizer
-```
 
 2. Create build directory and configure:
-```bash
+
 cmake . -B build
-```
 
 3. Build the project:
-```bash
+
 cmake --build build --config Release
-```
 
 ### Installation
 
 #### Windows
+
 - Copy the entire `.vst3` folder from `build/PhaseSpaceVisualizer_artefacts/Release/VST3/` to:
-  - `C:\Program Files\Common Files\VST3`
+ - `C:\Program Files\Common Files\VST3`
 
 #### macOS
 - Copy the `.vst3` bundle from `build/PhaseSpaceVisualizer_artefacts/Release/VST3/` to:
-  - `/Library/Audio/Plug-Ins/VST3`
+
+- `/Library/Audio/Plug-Ins/VST3`
 
 ## Usage
 
